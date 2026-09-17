@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "channel": "beta",
+  "latestVersion": "0.1.1-beta.2",
+  "mandatory": false,
+  "publishedAt": "2026-09-17T04:23:34.6427890Z",
+  "releaseNotes": [
+    "Closure pass beta build for distribution pipeline test."
+  ],
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.1.1-beta.2/Elmashad-0.1.1-beta.2.zip",
+  "sha256": "b6bd99269adc1719f6e98ac6c83929cabcc4a54eb497ce6c7142db7056a0f71f",
+  "fileSize": 377564,
+  "minimumSupportedVersion": "0.1.0"
+}

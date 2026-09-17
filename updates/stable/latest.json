@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "latestVersion": "0.1.0",
+  "mandatory": false,
+  "publishedAt": "2026-09-17T00:00:00Z",
+  "releaseNotes": [
+    "Initial public release.",
+    "Elmashad workspace inside Excel with automatic updates, themes and settings."
+  ],
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.1.0/Elmashad-0.1.0.zip",
+  "sha256": "SEED",
+  "fileSize": 0
+}

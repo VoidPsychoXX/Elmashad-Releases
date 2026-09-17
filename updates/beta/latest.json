@@ -1,14 +1,18 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.1.1-beta.3",
+  "latestVersion": "0.1.1-beta.4",
   "mandatory": false,
-  "publishedAt": "2026-09-17T04:41:00.3471321Z",
+  "publishedAt": "2026-09-17T20:22:58.8560608Z",
   "releaseNotes": [
-    "Post-privacy verification release."
+    "Fresh new interface: the Elmashad ribbon is now the home of every Elmashad tool.\r",
+    "Tools open as centered windows over Excel: Dashboard, Settings, Updates, Logs and About.\r",
+    "Professional icons and a clean group layout in the ribbon.\r",
+    "The Updates button shows a badge whenever a new version is available.\r",
+    "Excel starts normally - nothing opens automatically anymore.\r",
+    "Light and Dark themes now apply instantly across every Elmashad window."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.1.1-beta.3/Elmashad-0.1.1-beta.3.zip",
-  "sha256": "8ec13649d3280f8830f4845be0e7b56c0d43f49ef75bfc53421bf3edf7162b30",
-  "fileSize": 377556,
-  "minimumSupportedVersion": "0.1.0"
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.1.1-beta.4/Elmashad-0.1.1-beta.4.zip",
+  "sha256": "874f1f167300b8f3a8c7425b2897c2bf4723aa23b5bc957a70d1924282e5c9ec",
+  "fileSize": 392355
 }

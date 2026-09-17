@@ -1,18 +1,19 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.1.1-beta.4",
+  "latestVersion": "0.2.0-beta.1",
   "mandatory": false,
-  "publishedAt": "2026-09-17T20:22:58.8560608Z",
+  "publishedAt": "2026-09-17T22:00:42.6340628Z",
   "releaseNotes": [
-    "Fresh new interface: the Elmashad ribbon is now the home of every Elmashad tool.\r",
-    "Tools open as centered windows over Excel: Dashboard, Settings, Updates, Logs and About.\r",
-    "Professional icons and a clean group layout in the ribbon.\r",
-    "The Updates button shows a badge whenever a new version is available.\r",
-    "Excel starts normally - nothing opens automatically anymore.\r",
-    "Light and Dark themes now apply instantly across every Elmashad window."
+    "First real Primavera functionality: open and analyze XER schedules read-only.\r",
+    "New visual identity: sage and ivory design across every window, with a first-class dark mode.\r",
+    "Open XER from the ribbon; multi-project files ask which project to open.\r",
+    "Project Data: activities, WBS tree, relationships, calendars, resources and expenses.\r",
+    "Schedule Health core checks with clickable drill-down into affected activities.\r",
+    "Export any view to Excel as a clean, formatted worksheet.\r",
+    "Recent projects list and a redesigned dashboard with a real project overview."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.1.1-beta.4/Elmashad-0.1.1-beta.4.zip",
-  "sha256": "874f1f167300b8f3a8c7425b2897c2bf4723aa23b5bc957a70d1924282e5c9ec",
-  "fileSize": 392355
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.2.0-beta.1/Elmashad-0.2.0-beta.1.zip",
+  "sha256": "4f654f679bf334a11931cd476a65c8b2089471cca84e968b825226aab71290fc",
+  "fileSize": 443289
 }

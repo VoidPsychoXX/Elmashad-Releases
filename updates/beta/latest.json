@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.1.1-beta.2",
+  "latestVersion": "0.1.1-beta.3",
   "mandatory": false,
-  "publishedAt": "2026-09-17T04:23:34.6427890Z",
+  "publishedAt": "2026-09-17T04:41:00.3471321Z",
   "releaseNotes": [
-    "Closure pass beta build for distribution pipeline test."
+    "Post-privacy verification release."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.1.1-beta.2/Elmashad-0.1.1-beta.2.zip",
-  "sha256": "b6bd99269adc1719f6e98ac6c83929cabcc4a54eb497ce6c7142db7056a0f71f",
-  "fileSize": 377564,
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.1.1-beta.3/Elmashad-0.1.1-beta.3.zip",
+  "sha256": "8ec13649d3280f8830f4845be0e7b56c0d43f49ef75bfc53421bf3edf7162b30",
+  "fileSize": 377556,
   "minimumSupportedVersion": "0.1.0"
 }

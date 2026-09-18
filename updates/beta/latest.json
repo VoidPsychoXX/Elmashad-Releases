@@ -1,19 +1,16 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.2.0-beta.1",
+  "latestVersion": "0.2.0-beta.2",
   "mandatory": false,
-  "publishedAt": "2026-09-17T22:00:42.6340628Z",
+  "publishedAt": "2026-09-18T01:26:38.0376719Z",
   "releaseNotes": [
-    "First real Primavera functionality: open and analyze XER schedules read-only.\r",
-    "New visual identity: sage and ivory design across every window, with a first-class dark mode.\r",
-    "Open XER from the ribbon; multi-project files ask which project to open.\r",
-    "Project Data: activities, WBS tree, relationships, calendars, resources and expenses.\r",
-    "Schedule Health core checks with clickable drill-down into affected activities.\r",
-    "Export any view to Excel as a clean, formatted worksheet.\r",
-    "Recent projects list and a redesigned dashboard with a real project overview."
+    "Calendar intelligence: full workweek, working hours and holiday exceptions parsed from Primavera calendars.\r",
+    "Durations and float now convert using each activity own calendar, with clear flags when a fallback is used.\r",
+    "Hardened against real P6 schedules up to 1400 activities.\r",
+    "Excel export keeps native dates and numbers with clean formatting."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.2.0-beta.1/Elmashad-0.2.0-beta.1.zip",
-  "sha256": "4f654f679bf334a11931cd476a65c8b2089471cca84e968b825226aab71290fc",
-  "fileSize": 443289
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.2.0-beta.2/Elmashad-0.2.0-beta.2.zip",
+  "sha256": "53aae2da748e356e2bd562fe3eb5b4a53089ae7a8c2ce0b12efcc3d9e0606214",
+  "fileSize": 451022
 }

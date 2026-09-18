@@ -1,14 +1,17 @@
 {
-    "schemaVersion":  1,
-    "channel":  "stable",
-    "latestVersion":  "0.1.0",
-    "mandatory":  false,
-    "publishedAt":  "2026-09-17T00:00:00Z",
-    "releaseNotes":  [
-                         "Initial public release.",
-                         "Elmashad workspace inside Excel with automatic updates, themes and settings."
-                     ],
-    "downloadUrl":  "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.1.0/Elmashad-0.1.0.zip",
-    "sha256":  "123f18ac8bbc78dd195909cf4bf52ee145316c1ac9fb55d19f298bfe5102d83d",
-    "fileSize":  368544
+  "schemaVersion": 1,
+  "channel": "stable",
+  "latestVersion": "0.3.0",
+  "mandatory": false,
+  "publishedAt": "2026-09-18T20:19:40.8342444Z",
+  "releaseNotes": [
+    "First Stable release of the 0.3 line - promoted from the approved 0.3.0-beta.2.\r",
+    "The installer now detects and installs the official Microsoft VSTO runtime automatically.\r",
+    "Fixed the STA crash when opening an XER from WBS Style and the report dialogs.\r",
+    "WBS Level Editor columns no longer collapse; layout stays readable at any width.\r",
+    "Update pipeline hardening: anti-downgrade protection with exact prerelease SemVer floor."
+  ],
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.0/Elmashad-0.3.0.zip",
+  "sha256": "25b31b116453421eb88ad26c6bc34d72948560c710d844c653a8efb26e92373c",
+  "fileSize": 545624
 }

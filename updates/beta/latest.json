@@ -1,15 +1,16 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.0-beta.1",
+  "latestVersion": "0.3.0-beta.2",
   "mandatory": false,
-  "publishedAt": "2026-09-18T18:52:58.2762050Z",
+  "publishedAt": "2026-09-18T19:34:08.0666879Z",
   "releaseNotes": [
+    "The installer now detects and installs the official Microsoft VSTO runtime automatically - no manual Microsoft download or setup re-run needed.\r",
     "Fixed the STA crash when opening an XER from WBS Style and the report dialogs.\r",
     "WBS Level Editor columns no longer collapse; layout stays readable at any width.\r",
-    "New update pipeline: anti-downgrade protection, exact prerelease SemVer floor, online bootstrap installers."
+    "Update pipeline hardening: anti-downgrade protection with exact prerelease SemVer floor."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.0-beta.1/Elmashad-0.3.0-beta.1.zip",
-  "sha256": "17c58852357fc666b6ca0b5d2a81fcc711193eb2fcdb2fbb597a858fc808ba01",
-  "fileSize": 545668
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.0-beta.2/Elmashad-0.3.0-beta.2.zip",
+  "sha256": "e5355adfa2d03a07c6178076048910247266627e5b30d6e0a7c4c78b967fcb69",
+  "fileSize": 545722
 }

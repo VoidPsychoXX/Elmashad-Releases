@@ -10,7 +10,7 @@ tooling to Planning Engineers.
 
 <br>
 
-[Download Elmashad](https://github.com/VoidPsychoXX/Elmashad-Releases/releases/latest/download/Elmashad-Setup.exe)
+[Download Elmashad](https://raw.githubusercontent.com/VoidPsychoXX/Elmashad-Releases/main/download/Elmashad-Setup.exe)
 
 *Always the latest stable version — no login required.*
 
@@ -23,6 +23,9 @@ tooling to Planning Engineers.
 The button above always downloads the latest **stable** installer
 (`Elmashad-Setup.exe`). Prefer to pick a version yourself? Browse the
 [Releases](https://github.com/VoidPsychoXX/Elmashad-Releases/releases) page.
+
+**Beta testers:** the newest Beta build is available explicitly, separately
+from Stable: [Download Elmashad Beta](https://raw.githubusercontent.com/VoidPsychoXX/Elmashad-Releases/main/download/Elmashad-Setup-Beta.exe).
 
 ## Requirements
 

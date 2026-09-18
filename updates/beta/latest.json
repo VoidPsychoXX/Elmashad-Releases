@@ -1,17 +1,15 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.2.0-beta.3",
-  "mandatory": true,
-  "publishedAt": "2026-09-18T02:13:54.8673644Z",
+  "latestVersion": "0.3.0-beta.1",
+  "mandatory": false,
+  "publishedAt": "2026-09-18T18:52:58.2762050Z",
   "releaseNotes": [
-    "Fixed: tool windows could fail to open in release builds (converter resource conflict).\r",
-    "Updater hardened: concurrent apply protection and tolerant backup.\r",
-    "Calendar details now decoded from Primavera XER (workweek, hours, exceptions).\r",
-    "Durations convert with each activity own calendar; fallback conversions are flagged."
+    "Fixed the STA crash when opening an XER from WBS Style and the report dialogs.\r",
+    "WBS Level Editor columns no longer collapse; layout stays readable at any width.\r",
+    "New update pipeline: anti-downgrade protection, exact prerelease SemVer floor, online bootstrap installers."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.2.0-beta.3/Elmashad-0.2.0-beta.3.zip",
-  "sha256": "d6f22fcacc9ae897216515e2aaf96557571a2c5c5973b0cc9809278b2e695391",
-  "fileSize": 451369,
-  "minimumSupportedVersion": "0.2.0-beta.1"
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.0-beta.1/Elmashad-0.3.0-beta.1.zip",
+  "sha256": "17c58852357fc666b6ca0b5d2a81fcc711193eb2fcdb2fbb597a858fc808ba01",
+  "fileSize": 545668
 }

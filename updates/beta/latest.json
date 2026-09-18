@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.2.0-beta.2",
-  "mandatory": false,
-  "publishedAt": "2026-09-18T01:26:38.0376719Z",
+  "latestVersion": "0.2.0-beta.3",
+  "mandatory": true,
+  "publishedAt": "2026-09-18T02:13:54.8673644Z",
   "releaseNotes": [
-    "Calendar intelligence: full workweek, working hours and holiday exceptions parsed from Primavera calendars.\r",
-    "Durations and float now convert using each activity own calendar, with clear flags when a fallback is used.\r",
-    "Hardened against real P6 schedules up to 1400 activities.\r",
-    "Excel export keeps native dates and numbers with clean formatting."
+    "Fixed: tool windows could fail to open in release builds (converter resource conflict).\r",
+    "Updater hardened: concurrent apply protection and tolerant backup.\r",
+    "Calendar details now decoded from Primavera XER (workweek, hours, exceptions).\r",
+    "Durations convert with each activity own calendar; fallback conversions are flagged."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.2.0-beta.2/Elmashad-0.2.0-beta.2.zip",
-  "sha256": "53aae2da748e356e2bd562fe3eb5b4a53089ae7a8c2ce0b12efcc3d9e0606214",
-  "fileSize": 451022
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.2.0-beta.3/Elmashad-0.2.0-beta.3.zip",
+  "sha256": "d6f22fcacc9ae897216515e2aaf96557571a2c5c5973b0cc9809278b2e695391",
+  "fileSize": 451369,
+  "minimumSupportedVersion": "0.2.0-beta.1"
 }

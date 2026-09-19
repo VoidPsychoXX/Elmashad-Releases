@@ -1,20 +1,19 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.2-beta.1",
+  "latestVersion": "0.3.3-beta.1",
   "mandatory": false,
-  "publishedAt": "2026-09-19T02:24:49.6718583Z",
+  "publishedAt": "2026-09-19T17:18:28.0507561Z",
   "releaseNotes": [
-    "Installer: the bootstrap latest-check now works - the updater's dependency closure (Core, Newtonsoft) is extracted with it, so the online resolve is no longer a silent no-op.\r",
-    "Installer: a newer remote release is swapped in right after the base install; the uninstaller survives the swap.\r",
-    "Installer: silent installs no longer show bootstrap message boxes; downgrade refusal is fully logged.\r",
-    "Updater: packages whose payload version does not match the manifest/job version are refused (version-floor integrity).\r",
-    "WBS View (Create WBS View): planner-useful sheet with activity rows, durations, floats, real date/number formats, autofilter, freeze panes and optional outline groups; activity rows never inherit WBS colors.\r",
-    "WBS to HTML: new Gantt on/off, baseline bar toggle and zoom controls.\r",
-    "HTML Dashboard: executive KPIs completed (duration, WBS count, float<=0 activities, actual/planned progress); fixed a click-error on the dashboard pages.\r",
-    "Logging: [XER]/[EXCEL]/[REPORT]/[DASHBOARD] boundaries with elapsed times."
+    "CRITICAL Arabic fix: XER files saved by Arabic-locale P6 installations (Windows-1256) now load with correct Arabic text everywhere - reports, dashboards, Project Data and Excel output - on any computer, regardless of its system language.\r",
+    "Reports are written as true UTF-8 with an explicit charset declaration; Arabic project names, WBS names and activity names are byte-verified against the original file.\r",
+    "Ribbon icons for WBS Style, WBS to HTML and HTML Dashboard are now included in the installed package (they were missing from previous installers).\r",
+    "Fresh visual pass: Windows 11 rounded window corners, a proper title-bar close button with hover/pressed states, consistent title typography, and darker secondary text that meets readability contrast targets in both Light and Dark themes.\r",
+    "Logs window: clearer header, more readable log font and layout; Open Logs Folder / Copy Latest Log Path / Refresh unchanged.\r",
+    "WBS HTML: calmer toolbar buttons with hover and focus states and a pill-style Data Date label; the P6 WBS hierarchy colors are unchanged.\r",
+    "New release gates: every published installer is executed on a fresh machine with the update endpoint offline, and the exact public download bytes are re-downloaded and executed after publication."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.2-beta.1/Elmashad-0.3.2-beta.1.zip",
-  "sha256": "27fa1950216bafa99a2f28e4d444782ec8fcbae14e3b942cf5c1822d5b1e7446",
-  "fileSize": 551556
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.1/Elmashad-0.3.3-beta.1.zip",
+  "sha256": "2e2cb8543734753f6dd6fd37da09b29544025a10ad71d948d83e497d1132b693",
+  "fileSize": 557349
 }

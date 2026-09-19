@@ -3,7 +3,7 @@
   "channel": "stable",
   "latestVersion": "0.3.2",
   "mandatory": false,
-  "publishedAt": "2026-09-19T15:09:58.2120401Z",
+  "publishedAt": "2026-09-19T15:23:01.6477788Z",
   "releaseNotes": [
     "CRITICAL installer fix: on a fresh PC the previous Stable installer could refuse to install with 'Elmashad could not verify the latest release. Connect to the internet to continue.' even with a working internet connection. This is fixed.\r",
     "The installer now always installs the bundled Elmashad release, online or offline; the latest-release check is best-effort and can no longer block a fresh installation.\r",
@@ -14,6 +14,6 @@
     "No feature changes in this release: identical 0.3.1 product behavior with a working installer."
   ],
   "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.2/Elmashad-0.3.2.zip",
-  "sha256": "8b17a91801b62423dd5af1ee384d4b0a8bb6e7c871366b8d950a05fca1043f96",
-  "fileSize": 546068
+  "sha256": "883106cd05293962978841c6256d8bd3381e7f00a8305a64bff4307720eedb37",
+  "fileSize": 546082
 }

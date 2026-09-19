@@ -1,15 +1,19 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "latestVersion": "0.3.1",
+  "latestVersion": "0.3.2",
   "mandatory": false,
-  "publishedAt": "2026-09-18T21:01:03.5864096Z",
+  "publishedAt": "2026-09-19T15:09:58.2120401Z",
   "releaseNotes": [
-    "Hotfix: fixes an installer startup failure that prevented new installations of Elmashad 0.3.0.\r",
-    "The installer now also installs the official Microsoft VSTO runtime automatically when it is missing - no manual download or setup re-run needed.\r",
-    "No other changes to Elmashad itself. Existing 0.3.0 installations are working and do not need to reinstall."
+    "CRITICAL installer fix: on a fresh PC the previous Stable installer could refuse to install with 'Elmashad could not verify the latest release. Connect to the internet to continue.' even with a working internet connection. This is fixed.\r",
+    "The installer now always installs the bundled Elmashad release, online or offline; the latest-release check is best-effort and can no longer block a fresh installation.\r",
+    "VSTO runtime is still detected and installed automatically when missing.\r",
+    "Anti-downgrade protection is unchanged: an older installer still refuses to overwrite a newer installed Elmashad.\r",
+    "If a newer Stable exists online, the installer can resolve, verify and apply it after the base install.\r",
+    "Release pipeline now executes the exact public installer on a fresh machine with the latest endpoint offline before every publication (blocking gate).\r",
+    "No feature changes in this release: identical 0.3.1 product behavior with a working installer."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.1/Elmashad-0.3.1.zip",
-  "sha256": "768f7392ec68d949a8ec5568bfbaa70d1036da72bfe78c74a9efd75fd8ff8dfd",
-  "fileSize": 545625
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.2/Elmashad-0.3.2.zip",
+  "sha256": "8b17a91801b62423dd5af1ee384d4b0a8bb6e7c871366b8d950a05fca1043f96",
+  "fileSize": 546068
 }

@@ -1,21 +1,19 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.2",
+  "latestVersion": "0.3.3-beta.3",
   "mandatory": false,
-  "publishedAt": "2026-09-19T19:59:30.8131829Z",
+  "publishedAt": "2026-09-19T22:54:35.0966694Z",
   "releaseNotes": [
-    "WBS expand/collapse rebuilt on a real hierarchy state model: clicking +/-, the row, toolbar commands and the new right-click menu (Expand/Collapse this branch, Expand/Collapse all, Expand to Level) all update reliably, with scroll position kept.\r",
-    "The dashboard WBS Gantt page now has the full toolbar and uses the exact same engine as the standalone WBS report.\r",
-    "Professional P6-style presentation: project strip, classic WBS hierarchy bands from the active style profile, neutral activity rows with distinct IDs, indent guides, sticky columns, fixed row heights so the table and Gantt stay perfectly aligned.\r",
-    "Gantt timeline upgraded to a two-tier axis with planner gridlines; planned bars are blue-gray with green progress fill, critical bars red, milestones diamonds, WBS summary brackets, thin baseline bars, Data-date and Today lines.\r",
-    "New columns: BL Start / BL Finish when baseline dates exist and Free Float when present; unknown values show a dash instead of zero; column hide/reorder/resize persists.\r",
-    "Print / Export PDF: A4 landscape stylesheet with a print-mode menu (Table only / Gantt only / Table + Gantt).\r",
-    "Dashboard: deep-green navigation shell, Executive page completed (baseline finish, variance, duration, WBS count, float<=0 count, planned vs actual progress bars, embedded S-Curve), Look Ahead rebuilt as a hierarchy with working expand/collapse and search.\r",
-    "New Resource Histogram page: separate Labor / Equipment / Material cards driven only by data actually present in the project, with period budgeted bars, cumulative line, Total/Average, data labels, data table, zoom and a timeline slider.\r",
-    "Performance: prototype-cloned rows with delegated events keep single-branch expand/collapse immediate; verified at 1,000 and 5,000 activities."
+    "CRITICAL Excel fix: WBS summary rows were painted almost entirely blue - every band was shifted one palette step because P6 levels (root = level 1) were fed straight into the 0-based style palette. The project root is now P6 Classic blue, departments light green, sectors yellow, deeper tiers follow the profile. Apply to Active Sheet and Create WBS View share the same mapping.\r",
+    "Create WBS View no longer freezes panes, selects cells or changes zoom silently. Freezing the header row is an opt-in checkbox, off by default.\r",
+    "Schedule Health drill-downs fixed: activity rows now show WBS path, Start, Finish, durations and floats (they were blank), and each check has semantic columns - e.g. Long Duration shows Original/Remaining Duration and Threshold instead of dumping 81 d into a generic Detail column. A swapped predecessor/successor set that mislabeled open ends is fixed.\r",
+    "Schedule Health dialogs sized properly (about 1160x700, resizable, clamped to the work area) with the Close and Export to Excel footer always visible; the main page shows compact audit rows with PASS / WARNING / ATTENTION status.\r",
+    "Excel export of health findings uses the same semantic columns as the dialog.\r",
+    "Reports now default to a professional P6 Classic Light style - light neutral chrome, gray headers, subtle gridlines - independent of the Elmashad app theme; a Style button cycles P6 Classic and Elmashad chrome and dark viewing remains optional.\r",
+    "Visual system: reduced over-rounding (buttons 6px, inputs 5px, cards 8px), compact planner toolbars, metadata chips instead of pills."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.2/Elmashad-0.3.3-beta.2.zip",
-  "sha256": "f008b7b0036a0df7490bebb3e28e8cda62a0924c4d0e09d08b07b1a7f3a440b5",
-  "fileSize": 563988
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.3/Elmashad-0.3.3-beta.3.zip",
+  "sha256": "364f840374988cdfdb86098cb313c01a90c032ba2553356104531345a04877d0",
+  "fileSize": 569841
 }

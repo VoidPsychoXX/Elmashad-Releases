@@ -1,16 +1,20 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.0-beta.2",
+  "latestVersion": "0.3.2-beta.1",
   "mandatory": false,
-  "publishedAt": "2026-09-18T19:34:08.0666879Z",
+  "publishedAt": "2026-09-19T02:24:49.6718583Z",
   "releaseNotes": [
-    "The installer now detects and installs the official Microsoft VSTO runtime automatically - no manual Microsoft download or setup re-run needed.\r",
-    "Fixed the STA crash when opening an XER from WBS Style and the report dialogs.\r",
-    "WBS Level Editor columns no longer collapse; layout stays readable at any width.\r",
-    "Update pipeline hardening: anti-downgrade protection with exact prerelease SemVer floor."
+    "Installer: the bootstrap latest-check now works - the updater's dependency closure (Core, Newtonsoft) is extracted with it, so the online resolve is no longer a silent no-op.\r",
+    "Installer: a newer remote release is swapped in right after the base install; the uninstaller survives the swap.\r",
+    "Installer: silent installs no longer show bootstrap message boxes; downgrade refusal is fully logged.\r",
+    "Updater: packages whose payload version does not match the manifest/job version are refused (version-floor integrity).\r",
+    "WBS View (Create WBS View): planner-useful sheet with activity rows, durations, floats, real date/number formats, autofilter, freeze panes and optional outline groups; activity rows never inherit WBS colors.\r",
+    "WBS to HTML: new Gantt on/off, baseline bar toggle and zoom controls.\r",
+    "HTML Dashboard: executive KPIs completed (duration, WBS count, float<=0 activities, actual/planned progress); fixed a click-error on the dashboard pages.\r",
+    "Logging: [XER]/[EXCEL]/[REPORT]/[DASHBOARD] boundaries with elapsed times."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.0-beta.2/Elmashad-0.3.0-beta.2.zip",
-  "sha256": "e5355adfa2d03a07c6178076048910247266627e5b30d6e0a7c4c78b967fcb69",
-  "fileSize": 545722
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.2-beta.1/Elmashad-0.3.2-beta.1.zip",
+  "sha256": "27fa1950216bafa99a2f28e4d444782ec8fcbae14e3b942cf5c1822d5b1e7446",
+  "fileSize": 551556
 }

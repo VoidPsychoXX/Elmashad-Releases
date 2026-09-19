@@ -1,19 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.1",
+  "latestVersion": "0.3.3-beta.2",
   "mandatory": false,
-  "publishedAt": "2026-09-19T17:18:28.0507561Z",
+  "publishedAt": "2026-09-19T19:59:30.8131829Z",
   "releaseNotes": [
-    "CRITICAL Arabic fix: XER files saved by Arabic-locale P6 installations (Windows-1256) now load with correct Arabic text everywhere - reports, dashboards, Project Data and Excel output - on any computer, regardless of its system language.\r",
-    "Reports are written as true UTF-8 with an explicit charset declaration; Arabic project names, WBS names and activity names are byte-verified against the original file.\r",
-    "Ribbon icons for WBS Style, WBS to HTML and HTML Dashboard are now included in the installed package (they were missing from previous installers).\r",
-    "Fresh visual pass: Windows 11 rounded window corners, a proper title-bar close button with hover/pressed states, consistent title typography, and darker secondary text that meets readability contrast targets in both Light and Dark themes.\r",
-    "Logs window: clearer header, more readable log font and layout; Open Logs Folder / Copy Latest Log Path / Refresh unchanged.\r",
-    "WBS HTML: calmer toolbar buttons with hover and focus states and a pill-style Data Date label; the P6 WBS hierarchy colors are unchanged.\r",
-    "New release gates: every published installer is executed on a fresh machine with the update endpoint offline, and the exact public download bytes are re-downloaded and executed after publication."
+    "WBS expand/collapse rebuilt on a real hierarchy state model: clicking +/-, the row, toolbar commands and the new right-click menu (Expand/Collapse this branch, Expand/Collapse all, Expand to Level) all update reliably, with scroll position kept.\r",
+    "The dashboard WBS Gantt page now has the full toolbar and uses the exact same engine as the standalone WBS report.\r",
+    "Professional P6-style presentation: project strip, classic WBS hierarchy bands from the active style profile, neutral activity rows with distinct IDs, indent guides, sticky columns, fixed row heights so the table and Gantt stay perfectly aligned.\r",
+    "Gantt timeline upgraded to a two-tier axis with planner gridlines; planned bars are blue-gray with green progress fill, critical bars red, milestones diamonds, WBS summary brackets, thin baseline bars, Data-date and Today lines.\r",
+    "New columns: BL Start / BL Finish when baseline dates exist and Free Float when present; unknown values show a dash instead of zero; column hide/reorder/resize persists.\r",
+    "Print / Export PDF: A4 landscape stylesheet with a print-mode menu (Table only / Gantt only / Table + Gantt).\r",
+    "Dashboard: deep-green navigation shell, Executive page completed (baseline finish, variance, duration, WBS count, float<=0 count, planned vs actual progress bars, embedded S-Curve), Look Ahead rebuilt as a hierarchy with working expand/collapse and search.\r",
+    "New Resource Histogram page: separate Labor / Equipment / Material cards driven only by data actually present in the project, with period budgeted bars, cumulative line, Total/Average, data labels, data table, zoom and a timeline slider.\r",
+    "Performance: prototype-cloned rows with delegated events keep single-branch expand/collapse immediate; verified at 1,000 and 5,000 activities."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.1/Elmashad-0.3.3-beta.1.zip",
-  "sha256": "2e2cb8543734753f6dd6fd37da09b29544025a10ad71d948d83e497d1132b693",
-  "fileSize": 557349
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.2/Elmashad-0.3.3-beta.2.zip",
+  "sha256": "f008b7b0036a0df7490bebb3e28e8cda62a0924c4d0e09d08b07b1a7f3a440b5",
+  "fileSize": 563988
 }

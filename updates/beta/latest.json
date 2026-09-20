@@ -1,20 +1,18 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.4",
+  "latestVersion": "0.3.3-beta.5",
   "mandatory": false,
-  "publishedAt": "2026-09-20T06:12:07.8438651Z",
+  "publishedAt": "2026-09-20T11:27:43.5613206Z",
   "releaseNotes": [
-    "Ribbon split into two tabs: Elmashad-P6 (project, analysis, WBS & reports, settings) and Elmashad-ExcelTool (data cleanup) - each tool now lives where you expect it.\r",
-    "New Quick Clean tool on the ExcelTool tab: select messy cells, preview exactly what would change (trim spaces, collapse repeated spaces, remove hidden/invisible characters, normalize line breaks, clean non-breaking spaces, convert text numbers), then apply. Formula cells are always protected and are never modified, and every apply can be undone in the same session.\r",
-    "Complete report visual reset: reports now ship three complete, isolated styles - P6 Classic (default, light planner look), Elmashad Light and Elmashad Dark - switched atomically from the Style button; app theme can no longer leak into reports. Print always uses the light palette.\r",
-    "Chart fixes: the S-curve now shows its full date axis (a tick-step bug previously collapsed it to a single date label), curves re-measure their pane before drawing, and data labels no longer overlap where curves cross.\r",
-    "Gantt row height restored - a lost style token had compressed every report gantt row so all bars stacked into one dense band.\r",
-    "Updates window rebuilt responsive: it fills the window at any size, shows package provenance (published date, size, SHA-256) with the release notes, and keeps the footer actions visible.\r",
-    "Window shell: the title-bar close button is now perfectly centered and aligned at all DPI settings.\r",
+    "Color by WBS is now a one-click worksheet tool: paste the P6 schedule into Excel, click COLOR BY WBS, and the existing sheet is colored in place - classic P6 level bands (blue root, light green, yellow, ...) across the full schedule width, formulas, dates, values and column order untouched. No XER, no project loading.\r",
+    "WBS to HTML generates the classic planner report directly from the active worksheet: dark slate title strip, sticky table with level-colored WBS bands and ancestor color guides, 30px rows, three-tier timeline, Gantt with baseline and data-date lines, activity/column filters, column picker, expand to level, tab-delimited copy. No XER, no project loading.\r",
+    "Exact 21-level classic P6 palette shared by Excel coloring, the new small WBS Color Settings dialog and the HTML report.\r",
+    "Detection engine shared by both tools: header aliases, WBS vs activity by structure (any activity ID format), hierarchy levels from real indentation evidence - zero reliance on guessing for a normal P6 paste.\r",
+    "Excel proof: the full 123-band / 328-activity reference schedule was colored and read back inside real Excel - every level fill, font color, size, full-row extent, untouched activity rows, and a second click changes nothing.\r",
     "All release gates re-run: the exact built installer was executed on a fresh machine against an offline update endpoint, and the published bytes were re-downloaded and executed after publishing."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.4/Elmashad-0.3.3-beta.4.zip",
-  "sha256": "a2e0998f340c30453566c95303dd2b0e7a48403268a0570b87029f1614e22b46",
-  "fileSize": 584315
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.5/Elmashad-0.3.3-beta.5.zip",
+  "sha256": "3037700c2aadb7f8e5837fe5bd3ae503dc21b1303a4b8d7fface60f3da68675b",
+  "fileSize": 626173
 }

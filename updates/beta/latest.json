@@ -1,19 +1,20 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.3",
+  "latestVersion": "0.3.3-beta.4",
   "mandatory": false,
-  "publishedAt": "2026-09-19T22:54:35.0966694Z",
+  "publishedAt": "2026-09-20T06:12:07.8438651Z",
   "releaseNotes": [
-    "CRITICAL Excel fix: WBS summary rows were painted almost entirely blue - every band was shifted one palette step because P6 levels (root = level 1) were fed straight into the 0-based style palette. The project root is now P6 Classic blue, departments light green, sectors yellow, deeper tiers follow the profile. Apply to Active Sheet and Create WBS View share the same mapping.\r",
-    "Create WBS View no longer freezes panes, selects cells or changes zoom silently. Freezing the header row is an opt-in checkbox, off by default.\r",
-    "Schedule Health drill-downs fixed: activity rows now show WBS path, Start, Finish, durations and floats (they were blank), and each check has semantic columns - e.g. Long Duration shows Original/Remaining Duration and Threshold instead of dumping 81 d into a generic Detail column. A swapped predecessor/successor set that mislabeled open ends is fixed.\r",
-    "Schedule Health dialogs sized properly (about 1160x700, resizable, clamped to the work area) with the Close and Export to Excel footer always visible; the main page shows compact audit rows with PASS / WARNING / ATTENTION status.\r",
-    "Excel export of health findings uses the same semantic columns as the dialog.\r",
-    "Reports now default to a professional P6 Classic Light style - light neutral chrome, gray headers, subtle gridlines - independent of the Elmashad app theme; a Style button cycles P6 Classic and Elmashad chrome and dark viewing remains optional.\r",
-    "Visual system: reduced over-rounding (buttons 6px, inputs 5px, cards 8px), compact planner toolbars, metadata chips instead of pills."
+    "Ribbon split into two tabs: Elmashad-P6 (project, analysis, WBS & reports, settings) and Elmashad-ExcelTool (data cleanup) - each tool now lives where you expect it.\r",
+    "New Quick Clean tool on the ExcelTool tab: select messy cells, preview exactly what would change (trim spaces, collapse repeated spaces, remove hidden/invisible characters, normalize line breaks, clean non-breaking spaces, convert text numbers), then apply. Formula cells are always protected and are never modified, and every apply can be undone in the same session.\r",
+    "Complete report visual reset: reports now ship three complete, isolated styles - P6 Classic (default, light planner look), Elmashad Light and Elmashad Dark - switched atomically from the Style button; app theme can no longer leak into reports. Print always uses the light palette.\r",
+    "Chart fixes: the S-curve now shows its full date axis (a tick-step bug previously collapsed it to a single date label), curves re-measure their pane before drawing, and data labels no longer overlap where curves cross.\r",
+    "Gantt row height restored - a lost style token had compressed every report gantt row so all bars stacked into one dense band.\r",
+    "Updates window rebuilt responsive: it fills the window at any size, shows package provenance (published date, size, SHA-256) with the release notes, and keeps the footer actions visible.\r",
+    "Window shell: the title-bar close button is now perfectly centered and aligned at all DPI settings.\r",
+    "All release gates re-run: the exact built installer was executed on a fresh machine against an offline update endpoint, and the published bytes were re-downloaded and executed after publishing."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.3/Elmashad-0.3.3-beta.3.zip",
-  "sha256": "364f840374988cdfdb86098cb313c01a90c032ba2553356104531345a04877d0",
-  "fileSize": 569841
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.4/Elmashad-0.3.3-beta.4.zip",
+  "sha256": "a2e0998f340c30453566c95303dd2b0e7a48403268a0570b87029f1614e22b46",
+  "fileSize": 584315
 }

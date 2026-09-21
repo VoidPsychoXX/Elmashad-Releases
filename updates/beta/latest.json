@@ -1,19 +1,18 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.6",
+  "latestVersion": "0.3.3-beta.7",
   "mandatory": false,
-  "publishedAt": "2026-09-20T19:00:09.4769826Z",
+  "publishedAt": "2026-09-21T04:13:58.7639315Z",
   "releaseNotes": [
-    "Color by WBS now works on the REAL pasted P6 schedule. The previous beta could report 'No WBS summary rows were found' on real pastes - that false negative is fixed and was validated on the exact workbook that failed.\r",
-    "The detector reads the whole outline the way P6 actually pastes it: band labels and activity IDs share the first column with per-level indentation, the name column is populated for activities only, single-word and multi-word bands are both recognized, and levels are measured from the real indentation (2 spaces per level), never guessed.\r",
-    "Detection now reports a confidence level. High-confidence sheets color directly after a compact summary; Medium/Low confidence opens the new WBS Mapping window - pick the columns and detection method, preview the first rows with the real P6 band colors, then Apply Mapping. Cancel always leaves the worksheet untouched, and the accepted mapping is remembered for the workbook.\r",
-    "Notices are now real Elmashad windows (same title bar, close button and footer buttons as every other tool window) - no detached system-style popups.\r",
-    "Logs carry a full [WBS-DETECT] diagnostics block: used range, header row, evidence availability, classification counts, level distribution and confidence.\r",
-    "Validated on the real failing workbook: 123 WBS bands and 328 activities detected (levels L0-L8), colored across the full schedule width in real Excel, activity rows untouched, second apply identical.\r",
+    "Staged updates now install IMMEDIATELY after Excel exits. The previous beta could take seconds - or wait forever if an unrelated Excel process was running anywhere on the machine. The updater now tracks the exact Excel process that requested the update, polls its exit every 500 ms, and starts installing the moment it closes. Excel processes in other Windows sessions never delay the install.\r",
+    "The Updates window now shows every state plainly: update ready, waiting for Excel to close (with the Excel process IDs), installing, and installed. The primary action is 'Install When Excel Closes' - Elmashad never restarts or force-closes Excel; you save your work and close it normally, and the update takes over the moment Excel is gone.\r",
+    "If Excel closes visually but an Excel process stays in the background, Elmashad tells you which process is still running and lets you Wait or Cancel - it never kills anything.\r",
+    "Staged-update state and job files are now written atomically, so an interrupted save can never corrupt the pending update. Duplicate updater instances are prevented at launch.\r",
+    "Measured on a real Excel instance in the sandbox: Excel exit to detection 83 ms, detection to SHA verification 37 ms, verification to install start 1 ms.\r",
     "All release gates re-run: the exact built installer was executed on a fresh machine against an offline update endpoint, and the published bytes were re-downloaded and executed after publishing."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.6/Elmashad-0.3.3-beta.6.zip",
-  "sha256": "fa8a3d27dd4f5773e5dd1b22eebec3b70aae11874ef201ce72e86e8a6b813edb",
-  "fileSize": 633531
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.7/Elmashad-0.3.3-beta.7.zip",
+  "sha256": "a48953715876bb82f3d082ade1667b810456a2b36e7e7554ff322b8aead5af69",
+  "fileSize": 640648
 }

@@ -1,18 +1,22 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.7",
+  "latestVersion": "0.3.3-beta.8",
   "mandatory": false,
-  "publishedAt": "2026-09-21T04:13:58.7639315Z",
+  "publishedAt": "2026-10-01T12:11:00.2874170Z",
   "releaseNotes": [
-    "Staged updates now install IMMEDIATELY after Excel exits. The previous beta could take seconds - or wait forever if an unrelated Excel process was running anywhere on the machine. The updater now tracks the exact Excel process that requested the update, polls its exit every 500 ms, and starts installing the moment it closes. Excel processes in other Windows sessions never delay the install.\r",
-    "The Updates window now shows every state plainly: update ready, waiting for Excel to close (with the Excel process IDs), installing, and installed. The primary action is 'Install When Excel Closes' - Elmashad never restarts or force-closes Excel; you save your work and close it normally, and the update takes over the moment Excel is gone.\r",
-    "If Excel closes visually but an Excel process stays in the background, Elmashad tells you which process is still running and lets you Wait or Cancel - it never kills anything.\r",
-    "Staged-update state and job files are now written atomically, so an interrupted save can never corrupt the pending update. Duplicate updater instances are prevented at launch.\r",
-    "Measured on a real Excel instance in the sandbox: Excel exit to detection 83 ms, detection to SHA verification 37 ms, verification to install start 1 ms.\r",
-    "All release gates re-run: the exact built installer was executed on a fresh machine against an offline update endpoint, and the published bytes were re-downloaded and executed after publishing."
+    "Installer-driven updates: in-app updates now stage and run the versioned installer after Excel exits, keeping the VSTO registration, Windows Installed Apps entry and uninstaller always correct. The staged-update gate is strict: only a strictly newer version is actionable, and stale jobs finalize themselves instead of showing 'Update ready' forever.\r",
+    "A post-install integrity gate now verifies product files, VSTO registration, Installed Apps metadata and updater state after every install, and repairs a stale Installed Apps version at startup.\r",
+    "Workbook Audit: a one-click, strictly read-only workbook health check on the Elmashad-ExcelTool tab. It finds formula errors, hardcoded interruptions and deviations inside formula patterns, external links, broken names, numbers stored as text, unexpected blanks, hidden content, merged cells, UsedRange bloat, volatile formulas and number-format deviations - with filters, a details panel, Go to Cell and an exportable report. It never modifies the workbook.\r",
+    "Immediate install-on-exit: the updater tracks the exact Excel process that requested the update and installs the moment it closes; Excel in other sessions never delays it.\r",
+    "Version authority: version.props is now the single source of truth; Help, About and Settings always display the real installed version and its release channel.\r",
+    "Responsive windows: Help and Settings stretch and center at any size with a true top-right close button across every Elmashad window.\r",
+    "New Dark theme: a lighter green-charcoal palette with high-contrast text; Light theme refined. P6 hierarchy and report colors are untouched."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.7/Elmashad-0.3.3-beta.7.zip",
-  "sha256": "a48953715876bb82f3d082ade1667b810456a2b36e7e7554ff322b8aead5af69",
-  "fileSize": 640648
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.8/Elmashad-0.3.3-beta.8.zip",
+  "sha256": "73eb53f9ddbcbb1ff737d8da62e946a3c7bc4b3395d9278e134ab9702439cc9a",
+  "fileSize": 692478,
+  "installerUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.8/Elmashad-Setup-0.3.3-beta.8.exe",
+  "installerSha256": "135bfc636cc3fecae4f15fae3bc6adbccdbd12ff5e6d1e0fdd6de55558bff5f6",
+  "installerFileSize": 2630202
 }

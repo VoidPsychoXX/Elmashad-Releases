@@ -1,22 +1,23 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.8",
+  "latestVersion": "0.3.3-beta.9",
   "mandatory": false,
-  "publishedAt": "2026-10-01T12:11:00.2874170Z",
+  "publishedAt": "2026-10-01T13:59:44.8348740Z",
   "releaseNotes": [
-    "Installer-driven updates: in-app updates now stage and run the versioned installer after Excel exits, keeping the VSTO registration, Windows Installed Apps entry and uninstaller always correct. The staged-update gate is strict: only a strictly newer version is actionable, and stale jobs finalize themselves instead of showing 'Update ready' forever.\r",
-    "A post-install integrity gate now verifies product files, VSTO registration, Installed Apps metadata and updater state after every install, and repairs a stale Installed Apps version at startup.\r",
-    "Workbook Audit: a one-click, strictly read-only workbook health check on the Elmashad-ExcelTool tab. It finds formula errors, hardcoded interruptions and deviations inside formula patterns, external links, broken names, numbers stored as text, unexpected blanks, hidden content, merged cells, UsedRange bloat, volatile formulas and number-format deviations - with filters, a details panel, Go to Cell and an exportable report. It never modifies the workbook.\r",
-    "Immediate install-on-exit: the updater tracks the exact Excel process that requested the update and installs the moment it closes; Excel in other sessions never delays it.\r",
-    "Version authority: version.props is now the single source of truth; Help, About and Settings always display the real installed version and its release channel.\r",
-    "Responsive windows: Help and Settings stretch and center at any size with a true top-right close button across every Elmashad window.\r",
-    "New Dark theme: a lighter green-charcoal palette with high-contrast text; Light theme refined. P6 hierarchy and report colors are untouched."
+    "One unified Elmashad appearance: the Light/Dark/System theme selector is gone and every window now shares a single warm, premium identity built on the Elmashad cream/tan/brown palette - readable, calm and comfortable for long Excel sessions.\r",
+    "The window close button is now part of the window chrome itself: it fills the full title-bar height in a dedicated 44px top-right cell, its hover surface meets the true window edges and respects the rounded corner on Windows 11.\r",
+    "Bigger, clearer typography across the product: window titles, section headings, body text, captions, buttons and tables were all increased for comfortable reading on normal desktop monitors.\r",
+    "Branded controls everywhere: checkboxes, combo boxes with themed dropdowns, text inputs, tooltips, buttons (primary/secondary/ghost/danger) and data grids all follow the unified palette - and disabled controls are now visibly inactive instead of disappearing.\r",
+    "Workbook Audit: redesigned presentation with a clear command bar, an intentional empty state, a readable checks panel with a separate display section, wrapping filters and a structured finding-details panel (location, current values, analysis, recommendation). The audit engine is unchanged and strictly read-only.\r",
+    "Updates window: compact content-based sizing, a clear status card with a success affordance, and contextual actions - irrelevant options like Cancel Staged Update are now hidden instead of shown disabled.\r",
+    "Settings: the theme row was removed (one universal identity); General keeps only real behavior settings; the sidebar uses a soft warm selection.\r",
+    "Real Excel tooling stays exactly as it was: P6 hierarchy band colors, HTML report palettes and schedule health semantics are untouched."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.8/Elmashad-0.3.3-beta.8.zip",
-  "sha256": "73eb53f9ddbcbb1ff737d8da62e946a3c7bc4b3395d9278e134ab9702439cc9a",
-  "fileSize": 692478,
-  "installerUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.8/Elmashad-Setup-0.3.3-beta.8.exe",
-  "installerSha256": "135bfc636cc3fecae4f15fae3bc6adbccdbd12ff5e6d1e0fdd6de55558bff5f6",
-  "installerFileSize": 2630202
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.9/Elmashad-0.3.3-beta.9.zip",
+  "sha256": "4d59fcda821ccf81911e8e743c90d5a1aeef7713336275fa3ed96d7ba20986f1",
+  "fileSize": 693355,
+  "installerUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.9/Elmashad-Setup-0.3.3-beta.9.exe",
+  "installerSha256": "add99c9519f6c16f5f3558c0643c5c2ae30475648ff76cdde6baf68e8bc01812",
+  "installerFileSize": 2630963
 }

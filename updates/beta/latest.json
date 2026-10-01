@@ -1,23 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.9",
+  "latestVersion": "0.3.3-beta.10",
   "mandatory": false,
-  "publishedAt": "2026-10-01T13:59:44.8348740Z",
+  "publishedAt": "2026-10-01T20:42:18.0534384Z",
   "releaseNotes": [
-    "One unified Elmashad appearance: the Light/Dark/System theme selector is gone and every window now shares a single warm, premium identity built on the Elmashad cream/tan/brown palette - readable, calm and comfortable for long Excel sessions.\r",
-    "The window close button is now part of the window chrome itself: it fills the full title-bar height in a dedicated 44px top-right cell, its hover surface meets the true window edges and respects the rounded corner on Windows 11.\r",
-    "Bigger, clearer typography across the product: window titles, section headings, body text, captions, buttons and tables were all increased for comfortable reading on normal desktop monitors.\r",
-    "Branded controls everywhere: checkboxes, combo boxes with themed dropdowns, text inputs, tooltips, buttons (primary/secondary/ghost/danger) and data grids all follow the unified palette - and disabled controls are now visibly inactive instead of disappearing.\r",
-    "Workbook Audit: redesigned presentation with a clear command bar, an intentional empty state, a readable checks panel with a separate display section, wrapping filters and a structured finding-details panel (location, current values, analysis, recommendation). The audit engine is unchanged and strictly read-only.\r",
-    "Updates window: compact content-based sizing, a clear status card with a success affordance, and contextual actions - irrelevant options like Cancel Staged Update are now hidden instead of shown disabled.\r",
-    "Settings: the theme row was removed (one universal identity); General keeps only real behavior settings; the sidebar uses a soft warm selection.\r",
-    "Real Excel tooling stays exactly as it was: P6 hierarchy band colors, HTML report palettes and schedule health semantics are untouched."
+    "Fix: in-app updates that install the versioned setup exe now complete — the updater validates the payload type first, then waits for Excel to exit (root cause of the beta.8 to beta.9 update failure)\r",
+    "New: staged updates are acknowledged by the updater before Excel closes; the Updates window shows truthful states (Preparing / Ready - close Excel to install / Installing / Completed)\r",
+    "New: failed or stale staged updates are replaced automatically when a newer version is published\r",
+    "New: post-install integrity gate verifies the product, VSTO registry, Installed Apps entry, and updater state all agree\r",
+    "New: startup reconciliation repairs Installed Apps metadata and clears stale staged jobs"
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.9/Elmashad-0.3.3-beta.9.zip",
-  "sha256": "4d59fcda821ccf81911e8e743c90d5a1aeef7713336275fa3ed96d7ba20986f1",
-  "fileSize": 693355,
-  "installerUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.9/Elmashad-Setup-0.3.3-beta.9.exe",
-  "installerSha256": "add99c9519f6c16f5f3558c0643c5c2ae30475648ff76cdde6baf68e8bc01812",
-  "installerFileSize": 2630963
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.10/Elmashad-0.3.3-beta.10.zip",
+  "sha256": "4fa120ac3f3dcf1047fc3a4ef1a2ef9f1d61673e7a796d854f1c486b14660b31",
+  "fileSize": 695022
 }

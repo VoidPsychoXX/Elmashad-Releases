@@ -1,18 +1,16 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.12",
+  "latestVersion": "0.3.3-beta.13",
   "mandatory": false,
-  "publishedAt": "2026-10-02T09:57:41.6729555Z",
+  "publishedAt": "2026-10-02T11:07:08.5603146Z",
   "releaseNotes": [
-    "Hardening release: automatic updates now verify (and repair) Elmashad's Excel registration before any update is committed - a broken or missing registration can no longer be committed as success\r",
-    "New: the working registration is captured with every update backup and restored automatically on rollback\r",
-    "New: Elmashad.Updater.exe repair-registration - an external recovery entry point for registration issues\r",
-    "New: developer builds can no longer alter the machine's Excel registration; the test suite is registry-isolated and guard-verified\r",
-    "Fix: fresh installs of prerelease builds now default to the correct update channel (prerelease payloads check the beta endpoint)\r",
-    "Update: version floor authority tightened - Installed Apps metadata can never outrank the actual installed binaries"
+    "Fix: a Check for Updates during a staged update no longer restarts the staging - the armed job and its acknowledgement survive any number of re-checks\r",
+    "Fix: the real beta.11 to beta.12 incident class - staging a genuinely different payload now cleanly retires the old acknowledgement and helper before arming the new job\r",
+    "Hardening: a failed update now also retires the stale acknowledgement and helper automatically\r",
+    "Update: the installer scenario matrix and compatibility coverage now include every supported public release back to 0.3.3-beta.3"
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.12/Elmashad-0.3.3-beta.12.zip",
-  "sha256": "988e0a2956d5f2dedcb0665223357638e57f228167f5f19247a245e9fc715f5e",
-  "fileSize": 707019
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.13/Elmashad-0.3.3-beta.13.zip",
+  "sha256": "d5cd220812ddbfde540f6a3fba53c334b19e9e1941d5f550a059be005d37479b",
+  "fileSize": 707538
 }

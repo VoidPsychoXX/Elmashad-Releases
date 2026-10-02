@@ -1,19 +1,18 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.11",
+  "latestVersion": "0.3.3-beta.12",
   "mandatory": false,
-  "publishedAt": "2026-10-02T08:02:48.4296778Z",
+  "publishedAt": "2026-10-02T09:57:41.6729555Z",
   "releaseNotes": [
-    "Hardening release: the updater verifies an acknowledgement's identity (job, target version, payload) before Elmashad ever asks you to close Excel\r",
-    "New: disk space, staging and backup preflight before an update is armed; download retries on temporary network failures\r",
-    "New: automatic recovery if an update was interrupted mid-install - the previous working version restores itself at startup\r",
-    "New: failed updates can no longer leave the Updates window claiming Excel can close\r",
-    "New: failed or stale staged updates reconcile themselves at startup instead of looping\r",
-    "New: installer-driven updates can now run fully in place (shadow handoff); installer mode stays reserved for future releases\r",
-    "Foundation: mandatory-update policy plumbing and manifest signature preparation (inactive until signing keys exist)"
+    "Hardening release: automatic updates now verify (and repair) Elmashad's Excel registration before any update is committed - a broken or missing registration can no longer be committed as success\r",
+    "New: the working registration is captured with every update backup and restored automatically on rollback\r",
+    "New: Elmashad.Updater.exe repair-registration - an external recovery entry point for registration issues\r",
+    "New: developer builds can no longer alter the machine's Excel registration; the test suite is registry-isolated and guard-verified\r",
+    "Fix: fresh installs of prerelease builds now default to the correct update channel (prerelease payloads check the beta endpoint)\r",
+    "Update: version floor authority tightened - Installed Apps metadata can never outrank the actual installed binaries"
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.11/Elmashad-0.3.3-beta.11.zip",
-  "sha256": "4fc2fc14c2d6d5d95cb9f08d4fef50f3f2dce5e81d6f0e7408d7dd4a2141097e",
-  "fileSize": 703784
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.12/Elmashad-0.3.3-beta.12.zip",
+  "sha256": "988e0a2956d5f2dedcb0665223357638e57f228167f5f19247a245e9fc715f5e",
+  "fileSize": 707019
 }

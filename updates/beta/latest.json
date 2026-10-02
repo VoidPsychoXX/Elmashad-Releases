@@ -1,16 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.13",
+  "latestVersion": "0.3.3-beta.14",
   "mandatory": false,
-  "publishedAt": "2026-10-02T11:07:08.5603146Z",
+  "publishedAt": "2026-10-02T21:25:00.7473636Z",
   "releaseNotes": [
-    "Fix: a Check for Updates during a staged update no longer restarts the staging - the armed job and its acknowledgement survive any number of re-checks\r",
-    "Fix: the real beta.11 to beta.12 incident class - staging a genuinely different payload now cleanly retires the old acknowledgement and helper before arming the new job\r",
-    "Hardening: a failed update now also retires the stale acknowledgement and helper automatically\r",
-    "Update: the installer scenario matrix and compatibility coverage now include every supported public release back to 0.3.3-beta.3"
+    "New: HTML Dashboard V2 - P6-style WBS/Gantt planning workspace\r",
+    "WBS hierarchy depth now derived from the real parent tree (deep hierarchies no longer export flat)\r",
+    "P6 Classic multicolor grouping bands (default) + new P6 Subtle restrained profile; custom WBS styles preserved\r",
+    "Level selector (default Level 2), Expand/Collapse All, compact planner rows\r",
+    "Go to Data Date, Data Date and Today lines, ISO week numbers, new Quarter timescale\r",
+    "P6 summary brackets, critical/baseline/milestone bars, synchronized table-Gantt scrolling\r",
+    "Filtering keeps the full WBS ancestor chain; column layout persists; Table/Gantt/Combined print modes\r",
+    "Executive page: primary schedule KPIs, Planned vs Actual variance, Earned Value snapshot, compact project details\r",
+    "Single-file offline reports; Arabic/English mixed schedules supported"
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.13/Elmashad-0.3.3-beta.13.zip",
-  "sha256": "d5cd220812ddbfde540f6a3fba53c334b19e9e1941d5f550a059be005d37479b",
-  "fileSize": 707538
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.14/Elmashad-0.3.3-beta.14.zip",
+  "sha256": "56a15a69131ffa5dc180ca7c202ceb5a04660c4a77542b3cb0a1f8502442828d",
+  "fileSize": 716241
 }

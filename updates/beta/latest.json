@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.16",
+  "latestVersion": "0.3.3-beta.17",
   "mandatory": false,
-  "publishedAt": "2026-10-03T02:20:15.5997852Z",
+  "publishedAt": "2026-10-03T04:34:07.1315288Z",
   "releaseNotes": [
-    "Ribbon icon family refreshed to the unified Elmashad warm brand (bronze outlines, soft-tan fills, warm-cream panels).\r",
-    "All 16 ribbon commands across Elmashad-P6 and Elmashad-ExcelTool recolored as one consistent family.\r",
-    "Update-available badge now uses the Elmashad danger red.\r",
-    "No behavior changes: identical commands, groups, layout, P6 Classic views, and Solve OOS."
+    "SOLVE OOS upgraded to the general auto-solver: Case 2 (Not Started to Active) and Case-4 FS/SF now auto-repaired with canonical retypes (lag 0) and BFS frontier bridging.\r",
+    "General solver-caused dangling repair: new dangling starts and finishes are rebuilt automatically with context-ranked edges (SameCode / SameWbsParent / ProjectWide).\r",
+    "SOLVE OOS window reworked: compact summary cards, case filters and Case-4 bridge detail replace the findings text wall.\r",
+    "Convergence guarantee: SOLVED is declared only when the final output re-analyzes to zero actionable OOS, loop-free.\r",
+    "No changes to the updater, installer, registration, or the P6 Classic / P6 Soft visual languages."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.16/Elmashad-0.3.3-beta.16.zip",
-  "sha256": "9f99a3c09cd9f396e9da52f7e2a2c447df9093ef2f48ee1f371de9b24a2d27c2",
-  "fileSize": 748582
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.17/Elmashad-0.3.3-beta.17.zip",
+  "sha256": "001b7585d7c1a5645c419ae9a45708b2ad1f71038e34f9e474ad2e8f49ab9932",
+  "fileSize": 753390
 }

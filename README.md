@@ -30,7 +30,7 @@ Updated only after Beta validation and explicit approval.
 ### Beta — Latest test build
 
 <!-- beta-version-start -->
-0.3.3-beta.15
+0.3.3-beta.16
 <!-- beta-version-end -->
 
 Contains newer features and fixes that are still being validated. Betas are

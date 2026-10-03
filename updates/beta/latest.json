@@ -1,17 +1,16 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.15",
+  "latestVersion": "0.3.3-beta.16",
   "mandatory": false,
-  "publishedAt": "2026-10-03T00:53:17.5590899Z",
+  "publishedAt": "2026-10-03T02:20:15.5997852Z",
   "releaseNotes": [
-    "New: SOLVE OOS - analyze and repair actionable out-of-sequence logic in a Primavera P6 XER\r",
-    "Detects only current actionable OOS conditions (no historical rewrite); Case 2, non-zero lags, actionable SF and multi-project/cross-project inputs are detected and safely blocked\r",
-    "Case 4 unsatisfiable links are removed and bridged with verified upstream/downstream logic; loop checks run before and after every step\r",
-    "Writes a NEW XER under a cloned project identity - the source file is never modified - with a full phased report and a CREATE NEW PROJECT import warning\r",
-    "Also includes the beta.14 HTML Dashboard / P6-style WBS Gantt improvements"
+    "Ribbon icon family refreshed to the unified Elmashad warm brand (bronze outlines, soft-tan fills, warm-cream panels).\r",
+    "All 16 ribbon commands across Elmashad-P6 and Elmashad-ExcelTool recolored as one consistent family.\r",
+    "Update-available badge now uses the Elmashad danger red.\r",
+    "No behavior changes: identical commands, groups, layout, P6 Classic views, and Solve OOS."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.15/Elmashad-0.3.3-beta.15.zip",
-  "sha256": "2de918463b3e2fc8017197d05ffd0c2d22e88bc4bb5e6d7ebd00781d302af52d",
-  "fileSize": 748472
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.16/Elmashad-0.3.3-beta.16.zip",
+  "sha256": "9f99a3c09cd9f396e9da52f7e2a2c447df9093ef2f48ee1f371de9b24a2d27c2",
+  "fileSize": 748582
 }

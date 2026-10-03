@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.17",
+  "latestVersion": "0.3.3-beta.18",
   "mandatory": false,
-  "publishedAt": "2026-10-03T04:34:07.1315288Z",
+  "publishedAt": "2026-10-03T11:13:37.1876135Z",
   "releaseNotes": [
-    "SOLVE OOS upgraded to the general auto-solver: Case 2 (Not Started to Active) and Case-4 FS/SF now auto-repaired with canonical retypes (lag 0) and BFS frontier bridging.\r",
-    "General solver-caused dangling repair: new dangling starts and finishes are rebuilt automatically with context-ranked edges (SameCode / SameWbsParent / ProjectWide).\r",
-    "SOLVE OOS window reworked: compact summary cards, case filters and Case-4 bridge detail replace the findings text wall.\r",
-    "Convergence guarantee: SOLVED is declared only when the final output re-analyzes to zero actionable OOS, loop-free.\r",
+    "SOLVE OOS is now planner-grade: every solver-created relationship is selected by the PlannerLogicEvaluator (graph locality, WBS proximity, shared activity codes, schedule-date proximity, language-neutral name tokens) instead of raw Activity ID order.\r",
+    "Every added relationship carries an explanation and a HIGH/MEDIUM/LOW planner-confidence classification, summarized in the result and reviewable in the new solver-created-logic grid.\r",
+    "Project-wide fallbacks are last resort, explicitly explained, and flagged for planning review; new NETWORK CONCENTRATION REVIEW flags mark heavy fan-in candidates.\r",
+    "Report fixes: human Case numbering (no zero-based leak), no duplicated wording, Data date surfaced from the XER with the project Retained Logic / Progress Override mode.\r",
+    "P6 F9 acceptance contract added to the report; validated against a real P6 post-F9 export (all solver logic survives).\r",
     "No changes to the updater, installer, registration, or the P6 Classic / P6 Soft visual languages."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.17/Elmashad-0.3.3-beta.17.zip",
-  "sha256": "001b7585d7c1a5645c419ae9a45708b2ad1f71038e34f9e474ad2e8f49ab9932",
-  "fileSize": 753390
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.18/Elmashad-0.3.3-beta.18.zip",
+  "sha256": "7b652ca5a98cc4174e2fd9cdeaba25845f2210680d06f7105a4e517ebd104942",
+  "fileSize": 763029
 }

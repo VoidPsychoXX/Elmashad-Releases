@@ -1,21 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.14",
+  "latestVersion": "0.3.3-beta.15",
   "mandatory": false,
-  "publishedAt": "2026-10-02T21:25:00.7473636Z",
+  "publishedAt": "2026-10-03T00:53:17.5590899Z",
   "releaseNotes": [
-    "New: HTML Dashboard V2 - P6-style WBS/Gantt planning workspace\r",
-    "WBS hierarchy depth now derived from the real parent tree (deep hierarchies no longer export flat)\r",
-    "P6 Classic multicolor grouping bands (default) + new P6 Subtle restrained profile; custom WBS styles preserved\r",
-    "Level selector (default Level 2), Expand/Collapse All, compact planner rows\r",
-    "Go to Data Date, Data Date and Today lines, ISO week numbers, new Quarter timescale\r",
-    "P6 summary brackets, critical/baseline/milestone bars, synchronized table-Gantt scrolling\r",
-    "Filtering keeps the full WBS ancestor chain; column layout persists; Table/Gantt/Combined print modes\r",
-    "Executive page: primary schedule KPIs, Planned vs Actual variance, Earned Value snapshot, compact project details\r",
-    "Single-file offline reports; Arabic/English mixed schedules supported"
+    "New: SOLVE OOS - analyze and repair actionable out-of-sequence logic in a Primavera P6 XER\r",
+    "Detects only current actionable OOS conditions (no historical rewrite); Case 2, non-zero lags, actionable SF and multi-project/cross-project inputs are detected and safely blocked\r",
+    "Case 4 unsatisfiable links are removed and bridged with verified upstream/downstream logic; loop checks run before and after every step\r",
+    "Writes a NEW XER under a cloned project identity - the source file is never modified - with a full phased report and a CREATE NEW PROJECT import warning\r",
+    "Also includes the beta.14 HTML Dashboard / P6-style WBS Gantt improvements"
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.14/Elmashad-0.3.3-beta.14.zip",
-  "sha256": "56a15a69131ffa5dc180ca7c202ceb5a04660c4a77542b3cb0a1f8502442828d",
-  "fileSize": 716241
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.15/Elmashad-0.3.3-beta.15.zip",
+  "sha256": "2de918463b3e2fc8017197d05ffd0c2d22e88bc4bb5e6d7ebd00781d302af52d",
+  "fileSize": 748472
 }

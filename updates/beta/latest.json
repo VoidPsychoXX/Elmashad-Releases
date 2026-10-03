@@ -1,17 +1,19 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.21",
+  "latestVersion": "0.3.3-beta.22",
   "mandatory": false,
-  "publishedAt": "2026-10-03T21:14:15.2638131Z",
+  "publishedAt": "2026-10-03T23:46:04.3307395Z",
   "releaseNotes": [
-    "new: The updates window now opens with every release highlight fully readable — the window sizes itself to the notes, even when they arrive after the window opens\r",
-    "new: Release categories rendered as soft tinted cards with slim side accents and one refined filled tag per category — the old outlined oval badge is gone\r",
-    "new: Version chip in the highlights header and a quiet fade-in entrance when the notes load\r",
-    "fix: Window height fitting now accounts for the title bar settling after open, so notes are never cut off at the bottom edge\r",
-    "fix: Resizing the window width no longer disturbs the fitted height"
+    "fix: Apply Selected now actually applies — every fix is re-validated against the live workbook, backed up (verified file), confirmed with the backup path shown, applied, re-audited and verified, and the window shows the full result summary (applied / verified / failed / remaining / new findings / backup path)\r",
+    "fix: Broken named-range fixes work on Arabic and spaced sheet names, built-in print names are protected by the fix engine itself, and Undo now restores removed names exactly — the workbook returns to its pre-fix state\r",
+    "fix: External workbook links are captured completely: one External Workbook Dependency root per source lists every direct reference cell, cached-value availability, source reachability and downstream dependents — never again a claim of no captured formula references when references exist\r",
+    "fix: The unexpected-blank and merged-cells false positives on report-style sheets are gone: blank gaps are flagged only inside genuine record regions and always show the exact cells; only merges crossing multiple records are reported\r",
+    "fix: The ROOT FINDINGS section now reconciles with every 'part of root' reference — broken names and external dependencies appear as roots, with no dangling root ids\r",
+    "fix: Potential Sensitive Text now reads High confidence-first: Critical is reserved for credential labels, embedded password= secrets and known API-token signatures; masking is unchanged\r",
+    "new: Fixes are blocked when the open workbook is not the one the audit came from (renamed, moved or swapped), and the backup file is verified on disk before anything is applied"
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.21/Elmashad-0.3.3-beta.21.zip",
-  "sha256": "0cda3a225f9645d5d5ac9bb889bcd2af4b2f41f79b983b9ef6c133348a519e91",
-  "fileSize": 796088
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.22/Elmashad-0.3.3-beta.22.zip",
+  "sha256": "60a0f93cab3b69cc5abfe7e1796c171ff291c7dd8590331d249ab55eca82881d",
+  "fileSize": 805884
 }

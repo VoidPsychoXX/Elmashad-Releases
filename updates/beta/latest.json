@@ -1,21 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.20",
+  "latestVersion": "0.3.3-beta.21",
   "mandatory": false,
-  "publishedAt": "2026-10-03T18:42:46.7310298Z",
+  "publishedAt": "2026-10-03T21:14:15.2638131Z",
   "releaseNotes": [
-    "new: Advanced Workbook Audit — honest workbook metrics (used-range, non-empty and formula cells), Critical severity, and new category filters for external links, defined names and security\r",
-    "new: Formula analysis now understands row roles — valid totals and subtotals are protected and never flagged as deviations\r",
-    "new: Possible Formula Replaced by Value detection — reported only with strong evidence, with a previewed before/after formula fix\r",
-    "new: Root-cause grouping — cascaded formula errors fold under ONE root cause (external source, broken name or broken reference) instead of one finding per cell\r",
-    "new: Review Fixes flow — preview each fix, uncheck what you do not want, apply with an automatic backup, then the audit re-runs to verify; Undo stays available\r",
-    "new: Safe broken-name removal — offered only when dependency analysis proves the name is unused; print areas and titles are never touched\r",
-    "new: New detectors — circular references, dates stored as text, and helper cells outside table areas (informational)\r",
-    "fix: The exported audit report can no longer turn formula evidence into live formulas, and reported finding counts always equal rendered rows (fixes the old 13-claimed/4-rendered report defect)\r",
-    "fix: Potential credentials are always shown masked — the raw value is never stored, logged or exported"
+    "new: The updates window now opens with every release highlight fully readable — the window sizes itself to the notes, even when they arrive after the window opens\r",
+    "new: Release categories rendered as soft tinted cards with slim side accents and one refined filled tag per category — the old outlined oval badge is gone\r",
+    "new: Version chip in the highlights header and a quiet fade-in entrance when the notes load\r",
+    "fix: Window height fitting now accounts for the title bar settling after open, so notes are never cut off at the bottom edge\r",
+    "fix: Resizing the window width no longer disturbs the fitted height"
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.20/Elmashad-0.3.3-beta.20.zip",
-  "sha256": "c143de56673a38b33f6a88dd23c88e6c796dbf3ce83c0b9dc6da0bd810ac116a",
-  "fileSize": 795095
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.21/Elmashad-0.3.3-beta.21.zip",
+  "sha256": "0cda3a225f9645d5d5ac9bb889bcd2af4b2f41f79b983b9ef6c133348a519e91",
+  "fileSize": 796088
 }

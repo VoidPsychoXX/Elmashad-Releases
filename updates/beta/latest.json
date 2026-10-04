@@ -1,19 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.22",
+  "latestVersion": "0.3.3-beta.23",
   "mandatory": false,
-  "publishedAt": "2026-10-03T23:46:04.3307395Z",
+  "publishedAt": "2026-10-04T06:32:09.3200981Z",
   "releaseNotes": [
-    "fix: Apply Selected now actually applies — every fix is re-validated against the live workbook, backed up (verified file), confirmed with the backup path shown, applied, re-audited and verified, and the window shows the full result summary (applied / verified / failed / remaining / new findings / backup path)\r",
-    "fix: Broken named-range fixes work on Arabic and spaced sheet names, built-in print names are protected by the fix engine itself, and Undo now restores removed names exactly — the workbook returns to its pre-fix state\r",
-    "fix: External workbook links are captured completely: one External Workbook Dependency root per source lists every direct reference cell, cached-value availability, source reachability and downstream dependents — never again a claim of no captured formula references when references exist\r",
-    "fix: The unexpected-blank and merged-cells false positives on report-style sheets are gone: blank gaps are flagged only inside genuine record regions and always show the exact cells; only merges crossing multiple records are reported\r",
-    "fix: The ROOT FINDINGS section now reconciles with every 'part of root' reference — broken names and external dependencies appear as roots, with no dangling root ids\r",
-    "fix: Potential Sensitive Text now reads High confidence-first: Critical is reserved for credential labels, embedded password= secrets and known API-token signatures; masking is unchanged\r",
-    "new: Fixes are blocked when the open workbook is not the one the audit came from (renamed, moved or swapped), and the backup file is verified on disk before anything is applied"
+    "fix: Apply Selected now removes same-text defined names at workbook AND sheet scope in ONE pass — every scope is its own repair target, so selecting all fixes fixes all in one click with one backup\r",
+    "fix: a fix transaction that fails partway now rolls back completely — the workbook returns to its exact pre-apply state instead of keeping half the fixes\r",
+    "fix: live audits no longer report an external workbook link as 'no formula uses' while direct external formulas exist — the capture cross-checks the formula inventory against a second, independent channel\r",
+    "improved: a successful apply shows one clear result line — fixes applied and verified, Broken Defined Names before → after, the backup path, and undo availability\r",
+    "improved: failed fixes list their exact reasons; Undo that cannot complete keeps its journal so it can be retried"
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.22/Elmashad-0.3.3-beta.22.zip",
-  "sha256": "60a0f93cab3b69cc5abfe7e1796c171ff291c7dd8590331d249ab55eca82881d",
-  "fileSize": 805884
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.23/Elmashad-0.3.3-beta.23.zip",
+  "sha256": "8dc59a10289d566024f7494d454654e916361097ea5ad77841e8e7c47c16cb84",
+  "fileSize": 809610
 }

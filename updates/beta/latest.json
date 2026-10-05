@@ -1,17 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.24",
+  "latestVersion": "0.3.3-beta.25",
   "mandatory": false,
-  "publishedAt": "2026-10-04T09:04:11.8130336Z",
+  "publishedAt": "2026-10-05T22:29:20.1877058Z",
   "releaseNotes": [
-    "fix: one-click name repair now deletes worksheet-scoped names through their own sheet collection and workbook-scoped names only after their worksheet twins are gone — unambiguous in real Excel, so selecting all 8 fixes fixes all 8 in one pass\r",
-    "fix: a workbook-scoped name that does not resolve to exactly one entry is refused with an exact reason instead of deleting a same-text twin; a failed transaction still rolls back completely\r",
-    "fix: the report can no longer carry both the external-dependency root and a 'no formula uses' claim for the same workbook file — one canonical external state per source; UI and report counts always agree\r",
-    "improved: every name repair step logs safe diagnostics (resolved name texts, collection, delete result, fresh re-verification) so real Excel behavior is provable from the audit log\r",
-    "improved: undo restores worksheet-scoped names through their own sheet collection first"
+    "Workbook Audit is now actionable — every finding shows what Elmashad can do: Safe Fix, Review Fix, Guided Action, Manual Review or Information.\r",
+    "Exact cell detection for numbers stored as text — findings point at the precise cell (with the analyzed region shown separately), never a broad column range.\r",
+    "Convert to Number — a previewed, dependency-checked fix for text numbers in numeric columns, with identifier and precision protections (leading zeros, 16+ digit IDs and mixed codes are never converted) and full undo.\r",
+    "Unhide Sheet guided actions for hidden worksheets (including VeryHidden, with a stronger warning) — one sheet or several at once, always confirmed; undo restores the original hidden states.\r",
+    "Review Fixes is now Review Actions — safe fixes, review-and-confirm actions, guided actions and manual-review items in one pane; it stays enabled even when only guided actions exist.\r",
+    "New Fix Safe button — one click applies only the safe fixes through the single backup → confirm → apply → verify → undo transaction.\r",
+    "Ignore Finding — accepted findings are remembered per workbook and reopen automatically when the cell content changes.\r",
+    "Go to Cell works for range findings and opens hidden sheets after an explicit unhide prompt.\r",
+    "Exported report now shows exact affected cells, the analyzed region, available actions and the full action history."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.24/Elmashad-0.3.3-beta.24.zip",
-  "sha256": "10f4787ae7ed8cdd7bf9be1e5385cace2e95503e57c3aad1de13f7375182cef2",
-  "fileSize": 814802
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.25/Elmashad-0.3.3-beta.25.zip",
+  "sha256": "7ead5a690bbabf73fae0f50bde5ff7b9d1b4a2b39b8152e302fd7c50e9a8bf37",
+  "fileSize": 829482
 }

@@ -1,17 +1,19 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.26",
+  "latestVersion": "0.3.3-beta.27",
   "mandatory": false,
-  "publishedAt": "2026-10-06T06:04:00.0972038Z",
+  "publishedAt": "2026-10-06T17:12:11.2433641Z",
   "releaseNotes": [
-    "FIXED: Workbook Audit actions now actually execute — Convert to Number, Fix Safe, Apply Selected and Unhide Sheet were silently refused in beta.25 by a faulty live check; the real Excel formula contract (Range.HasFormula) is now used and every action reaches the workbook.\r",
-    "FIXED: Guided action checkboxes toggle on the first click — the six Unhide Sheet actions are now selectable and applicable (single, bulk, or mixed with safe fixes in one backup + confirmation).\r",
-    "NEW: stage-by-stage action diagnostics in the audit log — command invocation, validation verdicts with reasons, mutations and verification can never fail silently again.\r",
-    "IMPROVED: refused actions now name their exact reason in the window (stale target, workbook changed, protected structure) instead of a generic message.\r",
-    "IMPROVED: unsaved workbooks get their action backup in Elmashad's backup folder with an explicit log line."
+    "Workbook Audit: Go to Cell no longer shrinks a maximized Excel window - navigation now preserves the window state and geometry exactly\r",
+    "Go to Cell on a hidden sheet records the temporary unhide in the status line and the audit log so it can be restored\r",
+    "Workbook Audit acceptance harness: the QA challenge workbook is now a committed CI fixture proving detection, actionability, repair, re-audit, verification, undo and unrelated-change checks for every finding type\r",
+    "New previewed repairs: restore pattern formulas (the preview states the evaluated result), convert unambiguous ISO dates to real dates, apply the column's dominant number format, delete the later of two identical rows, unmerge record-bridging merges\r",
+    "Identifier safety: 13+-digit numeric text and leading-zero codes are never auto-converted - the refusal reason is stated on the disabled action\r",
+    "External workbook dependencies now carry Keep / Relink / Break guidance; breaking stays in Excel's Edit Links dialog, never automatic\r",
+    "Grouped volatile-formula findings navigate to their first cell; every fix runs the full validate, backup, confirm, apply, journal, verify, undo pipeline"
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.26/Elmashad-0.3.3-beta.26.zip",
-  "sha256": "b9d229d7e4d76ac654ce40586ec5c69215d2f976140b479b6352d10f7258111a",
-  "fileSize": 831620
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.27/Elmashad-0.3.3-beta.27.zip",
+  "sha256": "af87b9cd47b629d37c2936dd28e3fbb4525a207c490e14ca24b98e381006d0d4",
+  "fileSize": 843306
 }

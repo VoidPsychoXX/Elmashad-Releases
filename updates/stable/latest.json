@@ -1,19 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "latestVersion": "0.3.2",
+  "latestVersion": "0.3.3",
   "mandatory": false,
-  "publishedAt": "2026-09-19T15:23:01.6477788Z",
+  "publishedAt": "2026-10-07T23:55:54.7607155Z",
   "releaseNotes": [
-    "CRITICAL installer fix: on a fresh PC the previous Stable installer could refuse to install with 'Elmashad could not verify the latest release. Connect to the internet to continue.' even with a working internet connection. This is fixed.\r",
-    "The installer now always installs the bundled Elmashad release, online or offline; the latest-release check is best-effort and can no longer block a fresh installation.\r",
-    "VSTO runtime is still detected and installed automatically when missing.\r",
-    "Anti-downgrade protection is unchanged: an older installer still refuses to overwrite a newer installed Elmashad.\r",
-    "If a newer Stable exists online, the installer can resolve, verify and apply it after the base install.\r",
-    "Release pipeline now executes the exact public installer on a fresh machine with the latest endpoint offline before every publication (blocking gate).\r",
-    "No feature changes in this release: identical 0.3.1 product behavior with a working installer."
+    "NEW: Advanced Workbook Audit — actionable workbook diagnostics with severity-ranked, root-cause-grouped findings, honest workbook metrics and guided repairs (convert numbers and dates, apply dominant formats, unmerge, delete duplicate rows, unhide sheets, relink or break external links), with verified backups and exact undo throughout.\r",
+    "NEW: Solve OOS — planner-assisted analysis and repair of out-of-sequence logic in Primavera P6 XER files, with relationship explanations and confidence tiers; the output is a new file and the source is never modified.\r",
+    "NEW: Enhanced WBS and HTML reporting — a P6-style WBS/Gantt planning workspace with P6 Classic and P6 Subtle styles, level controls and print modes, WBS to HTML for worksheets, a multi-page offline HTML dashboard, and Color by WBS for worksheet rows.\r",
+    "IMPROVED: one consistent Elmashad interface across the ribbon, every window and every report, with responsive readable layouts and high-contrast selection.\r",
+    "IMPROVED: more reliable updates, backups, verification and recovery — install as soon as Excel closes, Restore Previous Version, and self-repair after a failed install.\r",
+    "IMPROVED: better Excel window and focus behavior, clearer audit action guidance, and a visible result for every action.\r",
+    "FIXED: silent Workbook Audit actions and external-link guidance — every action now executes or explains exactly why it cannot, including opening the linked source and Excel's own Edit Links dialog.\r",
+    "FIXED: Workbook Audit action, selection and repair reliability issues found in real-workbook testing.\r",
+    "FIXED: general reliability and usability corrections across Elmashad."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.2/Elmashad-0.3.2.zip",
-  "sha256": "883106cd05293962978841c6256d8bd3381e7f00a8305a64bff4307720eedb37",
-  "fileSize": 546082
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3/Elmashad-0.3.3.zip",
+  "sha256": "ced42a2e6d4119611c96fa09bb090d241fd6aeaec473bbc0db10cd7a4eb516cd",
+  "fileSize": 865166
 }

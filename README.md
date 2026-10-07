@@ -20,7 +20,7 @@ receives workbooks from other people.
 ### Stable — Recommended for normal use
 
 <!-- stable-version-start -->
-0.3.2
+0.3.3
 <!-- stable-version-end -->
 
 Updated only after Beta validation and explicit approval.

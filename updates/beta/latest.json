@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.29",
+  "latestVersion": "0.3.3-beta.30",
   "mandatory": false,
-  "publishedAt": "2026-10-07T10:11:52.6089970Z",
+  "publishedAt": "2026-10-07T14:04:08.0522146Z",
   "releaseNotes": [
-    "Workbook Audit tables now show finding names, locations and repair actions clearly without hiding important text - full details are also one hover away on every cell.\r",
-    "Finding details and repair previews are easier to read: the details panel is resizable and repair rows show the full action name, the key before and after values, and a short risk label with the full explanation on hover.\r",
-    "Conflicting repairs on the same cell are now announced in a clear warning banner before anything is applied - you choose one.\r",
-    "The Review Actions header shows how many safe, review-and-confirm and guided actions the scan found.\r",
-    "Manual-review findings now provide stronger guidance: used-range findings point to the exact cell where bloat starts, and every manual finding carries a diagnostic action such as Go to Cell or cycle/trace views.\r",
-    "Improved region detection reduces false helper-cell warnings around structured titles and headings above tables."
+    "Choosing repairs is clearer: the checkbox now works separately from the row highlight, checked actions carry their own tint, and Apply Selected shows the exact count of chosen actions.\r",
+    "New Select Safe and Clear Selection controls make multi-action review quick and predictable.\r",
+    "Selected rows use a high-contrast warm highlight so every label stays readable.\r",
+    "Closing Workbook Audit now returns cleanly to Excel without minimizing it or changing the Excel window state.\r",
+    "Manual-review findings provide guided choices instead of dead ends: expert users can explicitly convert identifier-like text with a clear warning, open Excel's own Edit Links dialog for external sources, and choose which duplicate row to keep.\r",
+    "An empty cell inside a calculating sequence is now reported as a restorable missing formula with a preview."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.29/Elmashad-0.3.3-beta.29.zip",
-  "sha256": "eef21d8e7d0871ff5e5c1a24530ac36922321bc75972b158f3ae7cbd199e32a3",
-  "fileSize": 855902
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.30/Elmashad-0.3.3-beta.30.zip",
+  "sha256": "09a27aaf47f1dd2e318d17ee9327e0e0134a76402be72aee71e5e02256dcab24",
+  "fileSize": 860756
 }

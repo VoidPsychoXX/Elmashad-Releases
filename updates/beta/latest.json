@@ -1,20 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.31",
+  "latestVersion": "0.3.3-beta.32",
   "mandatory": false,
-  "publishedAt": "2026-10-07T22:33:42.0166054Z",
+  "publishedAt": "2026-10-07T23:44:55.5730058Z",
   "releaseNotes": [
-    "External workbook links: Open Manage Workbook Links now really opens Excel's Edit Links dialog — and when Excel cannot show it (a cell is being edited or the workbook is protected), the exact reason appears instead of silence.\r",
-    "External workbook findings gain Open Source Workbook: the linked source is brought forward when it is already open, opened otherwise, and when the file is missing or unreachable the resolved path is shown with clear next steps — never a silent click.\r",
-    "Every Workbook Audit action now reports its result on the window's status strip — successes and refusals are always visible, so no action can silently do nothing.\r",
-    "Undo can no longer run while a scan is in progress, and apply/undo reliably restore Excel's screen state even when a write fails.\r",
-    "Exports say exported-to-Excel only when the export actually completed.\r",
-    "The circular-reference cycle viewer opens as a proper Elmashad window owned by Excel, with member-by-member navigation that returns cleanly to your workbook.\r",
-    "Schedule Health results clear when the project changes, a card whose project has closed explains why it cannot open, and Quick Clean restores Excel's screen state on any failure.\r",
-    "Title-bar icons now render on every Elmashad window, and the Settings page shows its Saved confirmation."
+    "Preparation for the 0.3.3 Stable release — no behavior changes of any kind; this line exists only so the Stable promotion can be cut from a source tree that carries its release bookkeeping. Identical product to beta.31."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.31/Elmashad-0.3.3-beta.31.zip",
-  "sha256": "2f011727b986a41bc93a2492534a21307d573278683cf612a2bdb04fa44b5984",
-  "fileSize": 865294
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.32/Elmashad-0.3.3-beta.32.zip",
+  "sha256": "ae0450c282e8e18b75ee144b8a4d02f717733ea459878368a3a4a015a135cf42",
+  "fileSize": 865293
 }

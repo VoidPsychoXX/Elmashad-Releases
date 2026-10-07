@@ -5,7 +5,7 @@
   "mandatory": false,
   "publishedAt": "2026-10-07T23:44:55.5730058Z",
   "releaseNotes": [
-    "Preparation for the 0.3.3 Stable release — no behavior changes of any kind; this line exists only so the Stable promotion can be cut from a source tree that carries its release bookkeeping. Identical product to beta.31."
+    "Release preparation update with no user-facing behavior changes."
   ],
   "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.32/Elmashad-0.3.3-beta.32.zip",
   "sha256": "ae0450c282e8e18b75ee144b8a4d02f717733ea459878368a3a4a015a135cf42",

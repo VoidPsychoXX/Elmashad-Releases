@@ -1,19 +1,18 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.28",
+  "latestVersion": "0.3.3-beta.29",
   "mandatory": false,
-  "publishedAt": "2026-10-07T02:09:19.9577750Z",
+  "publishedAt": "2026-10-07T10:11:52.6089970Z",
   "releaseNotes": [
-    "More Workbook Audit findings can now be repaired directly: date-as-text conversion, dominant number-format apply, merge unmerge and duplicate-row delete - each with preview, verification and Undo.\r",
-    "Formula repairs now show the exact result the restored formula will produce before you confirm.\r",
-    "Conflicting repairs on the same cell are identified before any change - Workbook Audit asks you to choose one instead of applying both.\r",
-    "Circular references open a member-by-member cycle view, and formula errors can trace their precedents and dependents on the sheet.\r",
-    "External workbook findings now offer guided relink (with backup and undo) and break-to-cached-values where the evidence supports them, with clear explanations when they do not.\r",
-    "Sensitive-text findings offer an explicit, confirmed Clear Cell action with Undo; identifier-like numeric text stays protected from automatic conversion, with a clear reason.\r",
-    "Number-format inconsistencies are now detected reliably on real workbooks."
+    "Workbook Audit tables now show finding names, locations and repair actions clearly without hiding important text - full details are also one hover away on every cell.\r",
+    "Finding details and repair previews are easier to read: the details panel is resizable and repair rows show the full action name, the key before and after values, and a short risk label with the full explanation on hover.\r",
+    "Conflicting repairs on the same cell are now announced in a clear warning banner before anything is applied - you choose one.\r",
+    "The Review Actions header shows how many safe, review-and-confirm and guided actions the scan found.\r",
+    "Manual-review findings now provide stronger guidance: used-range findings point to the exact cell where bloat starts, and every manual finding carries a diagnostic action such as Go to Cell or cycle/trace views.\r",
+    "Improved region detection reduces false helper-cell warnings around structured titles and headings above tables."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.28/Elmashad-0.3.3-beta.28.zip",
-  "sha256": "8e59d548285865f43a4ad1ec3cac336c2c4274aa27dee72679c6503e61cdc79b",
-  "fileSize": 854770
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.29/Elmashad-0.3.3-beta.29.zip",
+  "sha256": "eef21d8e7d0871ff5e5c1a24530ac36922321bc75972b158f3ae7cbd199e32a3",
+  "fileSize": 855902
 }

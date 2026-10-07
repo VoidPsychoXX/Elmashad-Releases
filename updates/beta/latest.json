@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.3-beta.27",
+  "latestVersion": "0.3.3-beta.28",
   "mandatory": false,
-  "publishedAt": "2026-10-06T17:12:11.2433641Z",
+  "publishedAt": "2026-10-07T02:09:19.9577750Z",
   "releaseNotes": [
-    "Go to Cell no longer resizes or restores a maximized Excel window - navigation keeps the window exactly as it was.",
-    "Workbook Audit offers additional previewed repair actions for supported formula, date, number-format, merge and duplicate-row findings - every repair is verified and can be undone.",
-    "Formula repair previews now state the exact result the repaired formula will produce before you confirm.",
-    "When Go to Cell temporarily shows a hidden worksheet to reach a finding, the status line now records which sheet was shown so it can be hidden again.",
-    "Numbers stored as text that look like identifiers (leading zeros or very long digit strings) are protected from automatic conversion - the action explains why.",
-    "External workbook findings now give clearer guidance for keeping, relinking or reviewing linked sources.",
-    "Volatile formula findings (NOW, RAND, TODAY and similar) can now be opened directly from the findings list."
+    "More Workbook Audit findings can now be repaired directly: date-as-text conversion, dominant number-format apply, merge unmerge and duplicate-row delete - each with preview, verification and Undo.\r",
+    "Formula repairs now show the exact result the restored formula will produce before you confirm.\r",
+    "Conflicting repairs on the same cell are identified before any change - Workbook Audit asks you to choose one instead of applying both.\r",
+    "Circular references open a member-by-member cycle view, and formula errors can trace their precedents and dependents on the sheet.\r",
+    "External workbook findings now offer guided relink (with backup and undo) and break-to-cached-values where the evidence supports them, with clear explanations when they do not.\r",
+    "Sensitive-text findings offer an explicit, confirmed Clear Cell action with Undo; identifier-like numeric text stays protected from automatic conversion, with a clear reason.\r",
+    "Number-format inconsistencies are now detected reliably on real workbooks."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.27/Elmashad-0.3.3-beta.27.zip",
-  "sha256": "af87b9cd47b629d37c2936dd28e3fbb4525a207c490e14ca24b98e381006d0d4",
-  "fileSize": 843306
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.3-beta.28/Elmashad-0.3.3-beta.28.zip",
+  "sha256": "8e59d548285865f43a4ad1ec3cac336c2c4274aa27dee72679c6503e61cdc79b",
+  "fileSize": 854770
 }

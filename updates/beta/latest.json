@@ -1,17 +1,14 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.4-beta.1",
+  "latestVersion": "0.3.4-beta.2",
   "mandatory": false,
-  "publishedAt": "2026-10-09T12:36:17.4642019Z",
+  "publishedAt": "2026-10-09T23:24:26.7418971Z",
   "releaseNotes": [
-    "Smart Lookup & Merge: match records between sheets or workbooks and bring selected fields into your table without writing lookup formulas.\r",
-    "Supports single or multiple matching keys, smart key suggestions, duplicate detection and missing-record analysis - with a full preview of every planned change before anything is written.\r",
-    "Safe merge controls: fill blanks only, replace changed values, or review conflicts one by one. Leading-zero and long identifiers are protected, and formulas or merged cells are never overwritten.\r",
-    "Every apply creates a verified backup, verifies each written cell and offers one-step Undo for the whole merge.\r",
-    "Compatible with Excel 2013 and later."
+    "Fixed an issue that could prevent Smart Lookup & Merge from opening correctly when discovering workbook datasets.\r",
+    "Improved Smart Lookup background processing and workbook discovery reliability, including faster and safer refreshes and a friendlier empty-workbook state."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.4-beta.1/Elmashad-0.3.4-beta.1.zip",
-  "sha256": "730e528402bad21b8d5939d9a2beec9a724e4f5fadc3636d697166b24d9b0213",
-  "fileSize": 934629
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.4-beta.2/Elmashad-0.3.4-beta.2.zip",
+  "sha256": "1a7c3e18ec28264e5e71961f4dce4ac5277e93f0a845a5f6e4ba7cb3bd422d12",
+  "fileSize": 936494
 }

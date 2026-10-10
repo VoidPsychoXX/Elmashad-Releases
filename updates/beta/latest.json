@@ -1,14 +1,15 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.4-beta.2",
+  "latestVersion": "0.3.4-beta.3",
   "mandatory": false,
-  "publishedAt": "2026-10-09T23:24:26.7418971Z",
+  "publishedAt": "2026-10-10T19:34:20.8888474Z",
   "releaseNotes": [
-    "Fixed an issue that could prevent Smart Lookup & Merge from opening correctly when discovering workbook datasets.\r",
-    "Improved Smart Lookup background processing and workbook discovery reliability, including faster and safer refreshes and a friendlier empty-workbook state."
+    "Added clear Back and Next navigation throughout Smart Lookup & Merge, so every step shows the way forward.\r",
+    "Smart Lookup now clearly indicates when each step is ready, and explains why a step cannot continue yet.\r",
+    "Improved dataset record counts and empty-state guidance in Smart Lookup."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.4-beta.2/Elmashad-0.3.4-beta.2.zip",
-  "sha256": "1a7c3e18ec28264e5e71961f4dce4ac5277e93f0a845a5f6e4ba7cb3bd422d12",
-  "fileSize": 936494
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.4-beta.3/Elmashad-0.3.4-beta.3.zip",
+  "sha256": "3ef7ee5d92ed62ebd24c8a4ba3bfb667fd6c41def8278706b103a66e1e6a7632",
+  "fileSize": 938538
 }

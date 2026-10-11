@@ -1,15 +1,34 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.4-beta.3",
+  "latestVersion": "0.3.4-beta.4",
   "mandatory": false,
-  "publishedAt": "2026-10-10T19:34:20.8888474Z",
+  "publishedAt": "2026-10-11T23:57:28.5988314Z",
   "releaseNotes": [
-    "Added clear Back and Next navigation throughout Smart Lookup & Merge, so every step shows the way forward.\r",
-    "Smart Lookup now clearly indicates when each step is ready, and explains why a step cannot continue yet.\r",
-    "Improved dataset record counts and empty-state guidance in Smart Lookup."
+    "Smart Lookup & Merge has been redesigned around a simpler workflow for updating one sheet from another.",
+    "Choose the sheet to update, select the new data, let Elmashad suggest how rows match, choose the values to bring over, then review everything before applying.",
+    "Smart Lookup can bring multiple values in one operation and automatically suggests the destination columns.",
+    "Advanced matching, duplicate and conflict controls remain available when needed.",
+    "Clearer navigation, friendly empty states and a plainer preview before anything is applied."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.4-beta.3/Elmashad-0.3.4-beta.3.zip",
-  "sha256": "3ef7ee5d92ed62ebd24c8a4ba3bfb667fd6c41def8278706b103a66e1e6a7632",
-  "fileSize": 938538
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.4-beta.4/Elmashad-0.3.4-beta.4.zip",
+  "sha256": "fd5d696b05b658ea4391976b0985a3ed374818b48b528347f6087a2c7c2f9864",
+  "fileSize": 941573,
+  "releaseNoteGroups": [
+    {
+      "items": [
+        "Choose the sheet to update, select the new data, let Elmashad suggest how rows match, choose the values to bring over, then review everything before applying.",
+        "Smart Lookup can bring multiple values in one operation and automatically suggests the destination columns."
+      ],
+      "kind": "new"
+    },
+    {
+      "items": [
+        "Smart Lookup & Merge has been redesigned around a simpler workflow for updating one sheet from another.",
+        "Advanced matching, duplicate and conflict controls remain available when needed.",
+        "Clearer navigation, friendly empty states and a plainer preview before anything is applied."
+      ],
+      "kind": "fixed"
+    }
+  ]
 }

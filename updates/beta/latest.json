@@ -1,21 +1,32 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.4-beta.5",
+  "latestVersion": "0.3.4-beta.6",
   "mandatory": false,
-  "publishedAt": "2026-10-12T06:33:55.7286223Z",
+  "publishedAt": "2026-10-12T13:47:35.1737176Z",
   "releaseNotes": [
-    "Fixed a Smart Lookup navigation issue where the primary Continue/Preview action could be missing from the wizard.",
-    "Smart Lookup now keeps its primary action visible on every step and clearly explains when an action is not yet available."
+    "Smart Lookup now detects real table headers even when sheets contain report titles, dates or grouped headings above the data.",
+    "Column selectors now use actual Excel field names and column letters, making it easier to match items and choose values to update.",
+    "Smart Lookup can recommend multiple identifying columns when one field alone contains duplicates.",
+    "Value selection now automatically suggests matching destination columns and shows where changed values exist.",
+    "Improved external workbook reading to avoid unnecessary workbook-window flashing during source analysis."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.4-beta.5/Elmashad-0.3.4-beta.5.zip",
-  "sha256": "529728adf06d4b72845622a9f842c82eacbe9dcb5fd0f6b1cfd4072f0979aeb5",
-  "fileSize": 941710,
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.4-beta.6/Elmashad-0.3.4-beta.6.zip",
+  "sha256": "5b9c2b023d9824f2bfc07317abc701c0a30e2e1e6e4be4043e1f8a4aacc5ef7e",
+  "fileSize": 949027,
   "releaseNoteGroups": [
     {
       "items": [
-        "Fixed a Smart Lookup navigation issue where the primary Continue/Preview action could be missing from the wizard.",
-        "Smart Lookup now keeps its primary action visible on every step and clearly explains when an action is not yet available."
+        "Smart Lookup can recommend multiple identifying columns when one field alone contains duplicates."
+      ],
+      "kind": "new"
+    },
+    {
+      "items": [
+        "Smart Lookup now detects real table headers even when sheets contain report titles, dates or grouped headings above the data.",
+        "Column selectors now use actual Excel field names and column letters, making it easier to match items and choose values to update.",
+        "Value selection now automatically suggests matching destination columns and shows where changed values exist.",
+        "Improved external workbook reading to avoid unnecessary workbook-window flashing during source analysis."
       ],
       "kind": "fixed"
     }

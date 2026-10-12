@@ -1,32 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "latestVersion": "0.3.4-beta.4",
+  "latestVersion": "0.3.4-beta.5",
   "mandatory": false,
-  "publishedAt": "2026-10-11T23:57:28.5988314Z",
+  "publishedAt": "2026-10-12T06:33:55.7286223Z",
   "releaseNotes": [
-    "Smart Lookup & Merge has been redesigned around a simpler workflow for updating one sheet from another.",
-    "Choose the sheet to update, select the new data, let Elmashad suggest how rows match, choose the values to bring over, then review everything before applying.",
-    "Smart Lookup can bring multiple values in one operation and automatically suggests the destination columns.",
-    "Advanced matching, duplicate and conflict controls remain available when needed.",
-    "Clearer navigation, friendly empty states and a plainer preview before anything is applied."
+    "Fixed a Smart Lookup navigation issue where the primary Continue/Preview action could be missing from the wizard.",
+    "Smart Lookup now keeps its primary action visible on every step and clearly explains when an action is not yet available."
   ],
-  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.4-beta.4/Elmashad-0.3.4-beta.4.zip",
-  "sha256": "fd5d696b05b658ea4391976b0985a3ed374818b48b528347f6087a2c7c2f9864",
-  "fileSize": 941573,
+  "downloadUrl": "https://github.com/VoidPsychoXX/Elmashad-Releases/releases/download/v0.3.4-beta.5/Elmashad-0.3.4-beta.5.zip",
+  "sha256": "529728adf06d4b72845622a9f842c82eacbe9dcb5fd0f6b1cfd4072f0979aeb5",
+  "fileSize": 941710,
   "releaseNoteGroups": [
     {
       "items": [
-        "Choose the sheet to update, select the new data, let Elmashad suggest how rows match, choose the values to bring over, then review everything before applying.",
-        "Smart Lookup can bring multiple values in one operation and automatically suggests the destination columns."
-      ],
-      "kind": "new"
-    },
-    {
-      "items": [
-        "Smart Lookup & Merge has been redesigned around a simpler workflow for updating one sheet from another.",
-        "Advanced matching, duplicate and conflict controls remain available when needed.",
-        "Clearer navigation, friendly empty states and a plainer preview before anything is applied."
+        "Fixed a Smart Lookup navigation issue where the primary Continue/Preview action could be missing from the wizard.",
+        "Smart Lookup now keeps its primary action visible on every step and clearly explains when an action is not yet available."
       ],
       "kind": "fixed"
     }
